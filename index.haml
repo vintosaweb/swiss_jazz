@@ -1,0 +1,103 @@
+/ @include 'kit/head.kit'
+
+%header
+  .wrap
+    .logo
+      %a{:href => ""} 
+        %img{:src => "i/logo.png", :alt => ""}
+    .data
+      .link 
+        %a{:href => ""} www.jazztour.ru
+      .addrs 
+        .addr 
+          %a{:href => ""} Москва
+          Тел. (495) 
+          %big 775-76-76
+        .addr 
+          %a{:href => ""} Санкт-Петербург
+          Тел. (812) 
+          %big 336-94-11
+    .gd 
+      %a{:href => ""} 
+        %img{:src => "i/gd.png", :alt => ""}
+    .clear
+
+%section.main 
+  .wrap.clearfix
+    %h1 Путешествие в Швецию
+    %p Швеция – страна множества достопримечательностей, интересных людей и непревзойденной природы. Шведам удалось впитать с молоком матери тонкий вкус к девственной красоте лесов, полей, озер. Они ценят волнующую сказку долин, восхищаются прелестью заката и умеют наслаждаться гармонией с природой. И даже самые известные и богатые представители этой нации выбирают рыбалку на местном озере или пикник в горах взамен путешествию на моря.
+    .left
+      .slider_box
+        .w
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+          .slide
+            / @include 'kit/slide.kit'
+    .right
+      .recom
+        .head Рекомендуем
+        .tour.clearfix
+          %img{:src => "i/im1.png", :alt => ""} 
+          .data 
+            %a{:href => ""} Гётеборг и отдых на архипелаге
+            %p.date 8 дней, 7 ночей
+            %p.price 
+              от 
+              %span 990 €
+        .tour.clearfix
+          %img{:src => "i/im1.png", :alt => ""} 
+          .data 
+            %a{:href => ""} Гётеборг и отдых на архипелаге
+            %p.date 8 дней, 7 ночей
+            %p.price 
+              от 
+              %span 990 €
+        .m 
+          %a{:href => ""} Смотреть больше туров →
+
+%section.video_photo.wrap.clearfix
+  %article 
+    %p.head ШВЕЦИЯ – открытое небо, открытая душа
+    %img{:src => "i/video.png", :alt => ""} 
+  %article 
+    %p.head Фотографии Швеции
+    .imgs 
+      %a{:href => ""} 
+        %img{:src => "i/i_01.png", :alt => ""} 
+        %img{:src => "i/i_02.png", :alt => ""} 
+        %img{:src => "i/i_03.png", :alt => ""} 
+        %img{:src => "i/i_04.png", :alt => ""} 
+        %img{:src => "i/i_05.png", :alt => ""} 
+        %img{:src => "i/i_06.png", :alt => ""} 
+        %img{:src => "i/i_07.png", :alt => ""} 
+        %img{:src => "i/i_08.png", :alt => ""} 
+        %img{:src => "i/i_09.png", :alt => ""} 
+        %img{:src => "i/i_10.png", :alt => ""} 
+        %img{:src => "i/i_11.png", :alt => ""} 
+        %img{:src => "i/i_12.png", :alt => ""} 
+
+%footer.wrap.clearfix
+  .jazz>
+    %a{:href => ""}> 
+      %img{:src => "i/logo1.png", :alt => ""}>
+    %a{:href => ""}> www.jazztour.ru
+  .gd 
+    %a{:href => ""} 
+      %img{:src => "i/gd1.png", :alt => ""} 
+  .counter 
+    %a{:href => ""} 
+      %img{:src => "i/counter.png", :alt => ""} 
+
+/ @include 'kit/foot.kit'
